@@ -1,4 +1,4 @@
-describe "Application 'RubyMotionBlankApp'" do
+describe "My Application" do
   before do
     @app = UIApplication.sharedApplication
   end
