@@ -4,7 +4,7 @@ This project is intended to be a starting point for building a [RubyMotion](http
 
 ## Benefits
 
-* Folders for models, views, controllers an vendored frameworks to encourage a Rails-esque layout convention
+* Folders for models, views, controllers and vendored frameworks to encourage a Rails-esque layout convention
 * Spec folder layout to mirror the app folder
 * Support for [TestFlight](http://www.rubymotion.com/developer-center/articles/testflight/)
 * Support for [CocoaPods](http://www.rubymotion.com/developer-center/articles/cocoapods/)
