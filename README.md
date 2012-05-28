@@ -1,8 +1,8 @@
-# RubyMotionBlankApp
+# RubyMotion App Template
 
 This project is intended to be a starting point for building a [RubyMotion](http://www.rubymotion.com/) app.
 
-## Features
+## Benefits
 
 * Folders for models, views, controllers an vendored frameworks to encourage a Rails-esque layout convention
 * Spec folder layout to mirror the app folder
