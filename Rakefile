@@ -6,11 +6,19 @@ require 'motion-testflight'
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'RubyMotionBlankApp'
+  app.version = '1.0'
+  app.identifier = "com.yourcompany.appname"
+
+  # == Device Family ==
+  # app.device_family = [:iphone, :ipad]
+
+  # == Icons ==
+  # app.icons = ["Icon.png", "Icon-72.png", "Icon@2x.png"]
 
   # == CocoaPods ==
   # app.pods do
   #  dependency '...'
-  #end
+  # end
 
   # == TestFlight ==
   # app.testflight.sdk = 'vendor/TestFlight'
