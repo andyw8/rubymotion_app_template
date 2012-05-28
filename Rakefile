@@ -4,10 +4,14 @@ require 'motion-cocoapods'
 require 'motion-testflight'
 
 Motion::Project::App.setup do |app|
-  # Use `rake config' to see complete project settings.
+  # Use `rake config' to see complete project settings
+  # http://www.rubymotion.com/developer-center/guides/project-management/
   app.name = 'RubyMotionBlankApp'
   app.version = '1.0'
-  app.identifier = "com.yourcompany.appname"
+  app.identifier = "com.yourcompany.#{app.name}"
+
+  # == Additional Frameworks ==
+  # app.frameworks += ['CoreLocation']
 
   # == Device Family ==
   # app.device_family = [:iphone, :ipad]
