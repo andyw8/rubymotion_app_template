@@ -13,9 +13,8 @@ This project is intended to be a starting point for building a [RubyMotion](http
 
 ## Usage
 
-* Clone the project:
+Clone the project:
 
-    git clone git@github.com:andyw8/RubyMotionBlankApp.git
+    git clone git@github.com:andyw8/rubymotion_app_template.git
 
-* Remove anything you don't need from the Rakefile
-* Start building your app!
+Remove anything you don't need from the Rakefile. Then start building your app!
