@@ -6,7 +6,7 @@ require 'motion-testflight'
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings
   # http://www.rubymotion.com/developer-center/guides/project-management/
-  app.name = 'RubyMotionBlankApp'
+  app.name = 'Your App Name'
   app.version = '1.0'
   app.identifier = "com.yourcompany.#{app.name}"
 
