@@ -11,6 +11,10 @@ This project template is intended to be a starting point for building a [RubyMot
 * Default values for app version and identifier
 * Placeholders for configuring icons and device families
 
+## MVC Example
+
+I have included a simple Model-View-Controller example, highlighting how the controller should act as a mediator, passing any model data into the constructor of the view. Views should not direclty access model data.
+
 ## Usage
 
 Clone the project:
