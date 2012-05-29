@@ -15,6 +15,12 @@ This project template is intended to be a starting point for building a [RubyMot
 
 I have included a simple Model-View-Controller example, highlighting how the controller should act as a mediator, passing any model data into the constructor of the view. Views should not direclty access model data.
 
+## Tests
+
+I've included a model test to show that RSpec can be used outside of the RubyMotion environment:
+
+    rspec spec/models/welcome_rspec.rb
+
 ## Usage
 
 Clone the project:
