@@ -10,6 +10,11 @@ Motion::Project::App.setup do |app|
   app.version = '1.0'
   app.identifier = "com.yourcompany.#{app.name}"
 
+  ## == Frank ==
+  # Remember to comment these out for a production build
+  app.vendor_project('vendor/Frank', :static)
+  app.frameworks << 'CFNetwork' 
+
   # == Additional Frameworks ==
   # app.frameworks += ['CoreLocation']
 

@@ -15,7 +15,15 @@ This project template is intended to be a starting point for building a [RubyMot
 
 I have included a simple Model-View-Controller example, highlighting how the controller should act as a mediator, passing any model data into the constructor of the view. Views should not direclty access model data.
 
-## Tests
+## Frank
+
+Support for Frank been added, based on the post [Test RubyMotion Apps Using Cucumber](http://calebcohoon.blogspot.co.uk/2012/06/test-rubymotion-apps-using-cucumber.html). In particular:
+
+* Frank is specified in the Gemfile so you can either run `bundle` or install it manually
+* The Frank project has been vendored so there's no need to run frank-skeleton
+* The Rakefile and env.rb files have been configured
+
+## Unit Tests
 
 I've included a model test to show that RSpec can be used outside of the RubyMotion environment:
 
