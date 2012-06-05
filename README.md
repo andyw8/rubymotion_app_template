@@ -13,7 +13,7 @@ This project template is intended to be a starting point for building a [RubyMot
 
 ## MVC Example
 
-I have included a simple Model-View-Controller example, highlighting how the controller should act as a mediator, passing any model data into the constructor of the view. Views should not direclty access model data.
+I have included a simple Model-View-Controller example, highlighting how the controller should act as a mediator, passing any model data into the constructor of the view. Views should not directly access model data.
 
 ## Frank
 
@@ -27,7 +27,9 @@ Support for Frank been added, based on the post [Test RubyMotion Apps Using Cucu
 
 I've included a model test to show that RSpec can be used outside of the RubyMotion environment:
 
-    rspec spec/models/welcome_rspec.rb
+    rspec spec/models/welcomer_spec.rb
+
+Note that at present this breaks the built-in `rake spec` task.
 
 ## Usage
 
