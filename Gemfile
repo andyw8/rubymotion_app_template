@@ -1,4 +1,4 @@
 source "https://rubygems.org"
 
-gem 'frank-cucumber', '~> 0.8.14'
-gem 'rspec', '~> 2.10.0'
+gem 'frank-cucumber', '~> 1.1.0'
+gem 'rspec', '~> 2.12.0'
